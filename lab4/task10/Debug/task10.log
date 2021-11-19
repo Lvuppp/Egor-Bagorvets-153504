@@ -1,4 +1,0 @@
-﻿  task10_2.cpp
-task10_2.obj : error LNK2005: "int __cdecl Input(void)" (?Input@@YAHXZ) уже определен в task10.obj
-task10_2.obj : error LNK2005: _main уже определен в task10.obj
-C:\Users\User\source\repos\lab4\Debug\task10.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
