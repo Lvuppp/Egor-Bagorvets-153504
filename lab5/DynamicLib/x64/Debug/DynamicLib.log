@@ -1,0 +1,4 @@
+﻿  DynamicFunctions.cpp
+C:\Users\User\source\repos\lab5\DynamicLib\DynamicFunctions.cpp(18,36): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\lab5\DynamicLib\DynamicFunctions.cpp(20,34): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  DynamicLib.vcxproj -> C:\Users\User\source\repos\lab5\x64\Debug\DynamicLib.dll
