@@ -1,0 +1,5 @@
+﻿  Functions.cpp
+C:\Users\User\source\repos\Functions\Functions\Functions.cpp(164,26): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\source\repos\Functions\Functions\Functions.cpp(294,36): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\source\repos\Functions\Functions\Functions.cpp(302,32): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+  Functions.vcxproj -> C:\Users\User\source\repos\Functions\x64\Debug\Functions.lib

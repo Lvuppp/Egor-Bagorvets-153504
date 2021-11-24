@@ -1,0 +1,25 @@
+#pragma once
+double inputDouble();
+long long inputInt();
+long long input(long long lowerValue, long long highValue);
+int** input(int** array, int size, int typeOfMatrix);
+int** createArray(int columnSize, int lineSize);
+int** createArray(int size);
+int** updateArray(int size, int typeOfMatrix);
+void printArray(int** array, int size);
+void printArray(int** array, int columnSize, int lineSize);
+void printArray(double** array, int columnSize, int lineSize);
+int getPerimeter(int** array, int size);
+void fillArray(double** array, int columnSize, int lineSize);
+void fillArray(int** array, int columnSize, int lineSize);
+void findZero(int columnSize, int lineSize, double** array);
+void updateArray(int** array, int columnSize, int lineSize);
+void updateArrayTask5(int** array, int columnSize, int lineSize);
+void printArray(int* array, int size);
+void deleteMatrix(int** array, int columnSize);
+long long recurse(long long x, long long y, long long n);
+long long recursiveFunction(int n);
+long long recursiveFunctionTask8(int a);
+long long recursiveSum(int p, int q);
+long long recursiveSum(int number);
+void reverseArray(int columnSize, int linesize, double** array);
