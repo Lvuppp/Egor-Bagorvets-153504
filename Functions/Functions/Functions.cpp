@@ -277,6 +277,10 @@ long long recurse(long long x, long long y, long long n) {
 		return x * recurse(x * x % n, y / 2, n) % n;
 	return recurse(x * x % n, y / 2, n);
 }
+long long recursResult(long long k, long long n, long long t) {
+	long long m = pow(10, t), l = k % m;
+	return recurse(l, n, m);
+}
 
 long long recursiveFunction(int n) {
 	if (n % 10 > 0)
@@ -287,9 +291,9 @@ long long recursiveFunction(int n) {
 		return recursiveFunction(n / 10);
 }
 
-long long recursiveSum(int p, int q) {
+long long recursiveSum(long long p, long long q) {
 	int recursiveSum = 0;
-	for (int i = p; i <= q; i++)
+	for (long long i = p; i <= q; i++)
 	{
 		recursiveSum += recursiveFunction(i);
 	}
