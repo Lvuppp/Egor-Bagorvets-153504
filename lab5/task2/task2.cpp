@@ -4,16 +4,31 @@
 //каждый раз отдельно для каждой из половин массива.Рекурсивные вызовы
 //заканчивать, когда останется только один элемент.
 #include<iostream>
-
+#include<Windows.h>
 int main() {
+	HINSTANCE load;
+	load = LoadLibrary(L"DynamicLib.dll");
+
+	typedef int(*input)();
+	input Input;
+	Input = (input)GetProcAddress(load, "input");
+
+	typedef int(*multiplyOfElements)(int*, int, int);
+	multiplyOfElements MultiplyOfElements;
+	MultiplyOfElements = (multiplyOfElements)GetProcAddress(load, "multiplyOfElements");
+
 	std::cout << "Enter size of array: " << std::endl;
-	int size = input();
+	int size = Input();
 	int* array = new int[size];
+
 	std::cout << "Enter elements of array: " << std::endl;
 	for (int i = 0; i < size; i++)
 	{
-		array[i] = input();
+		array[i] = Input();
 	}
-	int elementsMultiply = multiplyOfElements(array, size-1, size / 2) * multiplyOfElements(array, size/2-1, 0);
+	
+	int elementsMultiply = MultiplyOfElements(array, size-1, size / 2) * MultiplyOfElements(array, size/2-1, 0);
 	std::cout << elementsMultiply;
+	
+	FreeLibrary(load);
 }

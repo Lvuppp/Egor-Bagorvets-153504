@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\Sample-Test1\Sample-Test1\x64\Debug\Sample-Test1.vcxproj.CopyComplete
+C:\Users\User\source\repos\lab5_tests\Sample-Test1\x64\Debug\Sample-Test1.vcxproj.CopyComplete
