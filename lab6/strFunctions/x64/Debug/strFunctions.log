@@ -1,0 +1,9 @@
+﻿  strFunctions.cpp
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(121,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(229,63): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(231,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(263,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(285,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(285,12): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\source\repos\lab6\strFunctions\strFunctions.cpp(304,21): warning C4244: /=: преобразование "__int64" в "int", возможна потеря данных
+  strFunctions.vcxproj -> C:\Users\User\source\repos\lab6\x64\Debug\strFunctions.lib
