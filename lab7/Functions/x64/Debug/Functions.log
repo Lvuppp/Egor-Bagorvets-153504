@@ -1,0 +1,6 @@
+﻿  Functions.cpp
+C:\Users\User\source\repos\lab7\Functions\Functions.cpp(80,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\lab7\Functions\Functions.cpp(82,70): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\lab7\Functions\Functions.cpp(158,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\lab7\Functions\Functions.cpp(163,3): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Functions.vcxproj -> C:\Users\User\source\repos\lab7\x64\Debug\Functions.lib

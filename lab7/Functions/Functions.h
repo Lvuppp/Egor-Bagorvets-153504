@@ -1,0 +1,30 @@
+#pragma once
+#include<string>
+int inputInt();
+int inputInt(int minValue, int maxValue);
+std::string enterNumber(std::string &numberInOtherSystem, int valueOfOtherSystem);
+bool checkNumber(std::string str, int valueOfOtherSystem);
+char findValue(int digit, int maxKey);
+int findValue(char digit, int maxKey);
+int convertToDecimal(std::string str, int valueOfOtherSystem);
+void convertFromDecimal(int number, int valueOfOtherSystem,std::string &numberInAnotherSystem);
+int convertToDecimalFromReverse(std::string str, int valueOfOtherSystem);
+std::string transformNumber(std::string str);
+std::string convertInReverseCode(int number);
+void convertBinariesInReverseCode(std::string& str);
+void addZeroes(std::string& str, std::string& newStr);
+std::string binarySum(char signOfFirstNumber, std::string firstNumber, char signOfSecondNumber, std::string secondNumber, int valueOfSystem);
+void reverseStr(std::string& str);
+std::string binaryDif(char signOfFirstNumber, std::string firstNumber, char signOfSecondNumber, std::string secondNumber, int valueOfSystem);
+std::string convertToWrongSystem(int number);
+int getMaxBinaryNumber(int number);
+int amountIntrestingNumbers(int number);
+std::string getBinaryDif(std::string firstNumber, std::string secondNumber, int valueOfSystem);
+std::string getBinarySum(std::string firstNumber, std::string secondNumber, int valueOfSystem);
+void updateStr(std::string& firstNumber, std::string& secondNumber);
+std::string convertToRomanian(int number);
+void findNoneZeroNumber(std::string& number, int index);
+std::string convertToWrongThirdSystem(std::string number);
+bool multiplieByBigValue(int number);
+bool multiplieByTwentyNune(int number);
+bool multiplieBySeven(int number);
