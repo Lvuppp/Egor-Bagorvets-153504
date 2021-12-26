@@ -1,3 +1,5 @@
+//Лабараторная работа №6. Задание 6. Выполнено: Багровец Е. С.
+//Анаграммой слова называется любая перестановка всех букв слова.
 #include<iostream>
 #include<string>
 #include"..//strFunctions/strFunctions.cpp"

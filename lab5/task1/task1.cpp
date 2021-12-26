@@ -16,6 +16,5 @@ int main()
 	printArray(secondArray, size);
 	std::cout << "Perimetr of first matrix is : " << getPerimeter(firstArray, size);
 	std::cout <<"; perimetr of second matrix is : " << getPerimeter(secondArray, size);
-
 	return 0;
 }

@@ -12,7 +12,7 @@
 int main()
 {
 	std::cout << "Enter size of array: " << std::endl;
-	int columnSize = input(), lineSize = input();
+	int columnSize = inputInt(), lineSize = inputInt();
 	int** array = createArray(columnSize, lineSize);
 
 	fillArray(array, columnSize, lineSize);
