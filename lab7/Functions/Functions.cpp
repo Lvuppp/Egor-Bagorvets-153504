@@ -14,6 +14,7 @@ int inputInt() {
 		std::cout << "Enter corect value" << std::endl;
 	}
 }
+
 int inputInt(int minValue, int maxValue) {
 
 	double x;
@@ -73,8 +74,6 @@ int findValue(char digit, int maxKey) {
 	return -1;
 }
 
-
-
 int convertToDecimal(std::string str, int valueOfOtherSystem) {
 	int number = 0;
 	for (int i = str.length() - 1; i >= 0; i--)
@@ -97,11 +96,11 @@ void convertFromDecimal(int number, int valueOfOtherSystem, std::string& numberI
 int convertToDecimalFromReverse(std::string str, int valueOfOtherSystem) {
 	int number = 1;
 
-	convertBinariesInReverseCode(str);
+	convertBinariesInReverseCode(str); //перевод в обратный код
 	if (str.length() == 1)
 		return str[0] - 47;
 
-	if (str[0] == '1')
+	if (str[0] == '1') //удал€ем знаковый элемент еслии он отрицательный, иначе он не сыграет роли
 	{
 		str.erase(0, 1);
 		number *= -1;
@@ -138,7 +137,7 @@ std::string convertInReverseCode(int num) {
 	return number;
 }
 
-void convertBinariesInReverseCode(std::string &str){
+void convertBinariesInReverseCode(std::string &str){		
 	str = transformNumber(str);
 	if (str[0] == '1') {
 
@@ -233,6 +232,7 @@ std::string getBinaryDif(std::string firstNumber, std::string secondNumber, int 
 
 	return difNumber;
 }
+
 std::string binaryDif(char signOfFirstNumber, std::string firstNumber, char signOfSecondNumber, std::string secondNumber, int valueOfSystem) {
 	char finalSign = '+';
 	if (convertToDecimal(firstNumber, valueOfSystem) < convertToDecimal(secondNumber, valueOfSystem)) {
@@ -253,12 +253,6 @@ std::string binaryDif(char signOfFirstNumber, std::string firstNumber, char sign
 	return "I dont understand want i should to do!";
 }
 
-std::string convertToWrongSystem(int number)
-{
-	return std::string();
-}
-
-
 void reverseStr(std::string& str) {
 	for (int i = 0; i < str.length() / 2; i++)
 	{
@@ -271,7 +265,7 @@ void reverseStr(std::string& str) {
 int getMaxBinaryNumber(int number) {
 	int amount = 1;
 	for (int i = 1; i < 100000; i++)
-	{
+	{	
 		std::string binaryStr, numberStr = std::to_string(i);
 		convertFromDecimal(i, 2, binaryStr);
 
@@ -368,6 +362,7 @@ std::string convertToRomanian(int number) {
 	num += units[number];
 	return num;
 }
+
 void findNoneZeroNumber(std::string& number, int index) {
 	if (number[index] == '0')
 		findNoneZeroNumber(number, index + 1);
@@ -410,6 +405,7 @@ bool multiplieByTwentyNune(int number) {
 		return true;
 	return false;
 }
+
 bool multiplieByBigValue(int number) {
 	int num = 0;
 	for (int i = 0; num < number; i++)

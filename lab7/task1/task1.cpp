@@ -12,13 +12,13 @@ int main() {
 	int valueOfOtherSystem,valueOfAnotherSystem;
 
 	cout << "Enter name of system(max is 18)" << endl;
-	cin >> valueOfOtherSystem;
+	cin >> valueOfOtherSystem; // ввод первой системы
 	cout << "Enter name of system(max is 18)" << endl;
-	cin >> valueOfAnotherSystem;
+	cin >> valueOfAnotherSystem;// ввод второй системы
 	 
 	cout << "Enter number(max size of elements in number is 10): " << endl;
 
-	convertFromDecimal(convertToDecimal(enterNumber(numberInOtherSystem, valueOfOtherSystem), valueOfOtherSystem),valueOfAnotherSystem, numberInAnotherSystem);
+	convertFromDecimal(convertToDecimal(enterNumber(numberInOtherSystem, valueOfOtherSystem), valueOfOtherSystem),valueOfAnotherSystem, numberInAnotherSystem);// использууем функции перевода из одной системы в другую
 	
 	cout << numberInAnotherSystem;
 

@@ -17,7 +17,7 @@ int main() {
 	string firstNumber, secondNumber;
 	int valueOfSystem;
 	cout << "Enter system" << endl;
-	cin >> valueOfSystem;
+	cin >> valueOfSystem;// вводим систему счисления
 	cout << "Enter sign of first number" << endl;
 	cin >> signOfFirstNumber;
 	cout << "Enter first numbers in "<< valueOfSystem << " system" << endl;
@@ -27,8 +27,8 @@ int main() {
 	cout << "Enter second numbers in " << valueOfSystem << " system" << endl;
 	enterNumber(secondNumber, valueOfSystem);
 
-	cout << "Sum is :" << binarySum(signOfFirstNumber,firstNumber,signOfSecondNumber,secondNumber,valueOfSystem) << endl;
-	cout << "Dif is :" << binaryDif(signOfFirstNumber, firstNumber, signOfSecondNumber, secondNumber, valueOfSystem) << endl;
+	cout << "Sum is :" << binarySum(signOfFirstNumber,firstNumber,signOfSecondNumber,secondNumber,valueOfSystem) << endl;//cкладываем числа в n-ой системе
+	cout << "Dif is :" << binaryDif(signOfFirstNumber, firstNumber, signOfSecondNumber, secondNumber, valueOfSystem) << endl;//отнимаем числа в n-ой системе
 
 	return 0;
 }

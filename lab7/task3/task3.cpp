@@ -10,8 +10,8 @@
 using namespace std;
 
 int main() {
-	string firstNumber = convertInReverseCode(inputInt()), secondNumber = convertInReverseCode(inputInt());
+	string firstNumber = convertInReverseCode(inputInt()), secondNumber = convertInReverseCode(inputInt()); // вводим и конвертируем два числа
 	cout << firstNumber << " " << secondNumber << endl;
-	cout << binarySum('+' , firstNumber, '+', secondNumber, 2);
+	cout << binarySum('+' , firstNumber, '+', secondNumber, 2);// сумма двух чисел в двоичной системе
 	return 0;
 }

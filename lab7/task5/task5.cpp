@@ -8,5 +8,5 @@ using namespace std;
 
 
 int main() {
-	cout << convertToRomanian(inputInt(0, 4000));
+	cout << convertToRomanian(inputInt(0, 4000));//ввод и конвертация числа 
 }

@@ -28,3 +28,4 @@ std::string convertToWrongThirdSystem(std::string number);
 bool multiplieByBigValue(int number);
 bool multiplieByTwentyNune(int number);
 bool multiplieBySeven(int number);
+int blyadskajaRecursijaToDecimal(int valueOfOtherSystem,int degree);

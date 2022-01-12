@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 	
-	cout << getMaxBinaryNumber(inputInt(0, 33));
+	cout << getMaxBinaryNumber(inputInt(0, 33));//нахождение двудесятичных чисел
 
 	return 0;
 }

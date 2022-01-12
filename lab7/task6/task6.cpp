@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-	int counter = inputInt(0, 1001);
+	int counter = inputInt(0, 1001);//ввод количества итераций
 
 	while (counter != 0) 
 	{
@@ -17,6 +17,6 @@ int main() {
 		
 		std::cout << amountIntrestingNumbers(number) << '\n';
 
-		--counter;
+		--counter;			
 	}
 }

@@ -25,7 +25,7 @@ int main() {
 	cout << "Enter number in reverse code: " << endl;
 	string number = inputString();
 
-	std::cout << convertToDecimalFromReverse(number,2);
+	std::cout << convertToDecimalFromReverse(number,2);//конвертируем
 
 	return 0;
 }

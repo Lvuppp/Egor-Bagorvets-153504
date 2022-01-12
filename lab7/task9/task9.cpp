@@ -18,6 +18,6 @@ using namespace std;
 int main() {
 	string number;
 	convertFromDecimal(inputInt(0, 1000), 3,number);
-	number = convertToWrongThirdSystem(number);
+	number = convertToWrongThirdSystem(number);//конвертация в непрвильную троичную систему
 	cout << number;
 }
